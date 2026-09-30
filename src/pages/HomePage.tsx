@@ -18,20 +18,14 @@ export default function HomePage() {
       title="Turn Your Vision into Permanent Art"
       description="Experience professional artistry, hygienic standards, and custom tattoo designs tailored to your soul. Book your session today."
       primaryButton={{
-        text: "Book Consultation",
-        href: "#contact",
-      }}
+        text: "Book Consultation",        href: "#contact"}}
       secondaryButton={{
-        text: "View Portfolio",
-        href: "#portfolio",
-      }}
+        text: "View Portfolio",        href: "#portfolio"}}
       items={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/tattoo-studio-with-masters-clients_23-2147834102.jpg?_wi=1",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/tattoo-studio-with-masters-clients_23-2147834102.jpg"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/young-handsome-tattooed-man-having-breakfast-bed-open-air-outdoors-garden_1321-990.jpg",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/young-handsome-tattooed-man-having-breakfast-bed-open-air-outdoors-garden_1321-990.jpg"},
       ]}
       textAnimation="slide-up"
     />
@@ -43,9 +37,7 @@ export default function HomePage() {
           <AboutTextSplit
       title="About Our Studio"
       descriptions={[
-        "Located in the heart of the city, Ink & Soul is a premier destination for custom tattoo art. Our artists combine technical precision with deep artistic passion.",
-        "We focus on creating a comfortable, sterile, and creative environment where your ideas come to life. Whether you're getting your first piece or a full-sleeve project, we are here to guide you.",
-      ]}
+        "Located in the heart of the city, Ink & Soul is a premier destination for custom tattoo art. Our artists combine technical precision with deep artistic passion.",        "We focus on creating a comfortable, sterile, and creative environment where your ideas come to life. Whether you're getting your first piece or a full-sleeve project, we are here to guide you."]}
       textAnimation="fade-blur"
     />
     </SectionErrorBoundary>
@@ -59,35 +51,17 @@ export default function HomePage() {
       description="Explore our portfolio of custom designs, ranging from minimalist fineline work to intricate black-and-grey realism."
       items={[
         {
-          tag: "Hygiene",
-          title: "Sterile Excellence",
-          description: "We uphold the highest medical-grade sterilization standards in the industry.",
-          primaryButton: {
-            text: "Learn More",
-            href: "#",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/master-making-tattoo-studio_23-2147834008.jpg",
-        },
+          tag: "Hygiene",          title: "Sterile Excellence",          description: "We uphold the highest medical-grade sterilization standards in the industry.",          primaryButton: {
+            text: "Learn More",            href: "#"},
+          imageSrc: "http://img.b2bpic.net/free-photo/master-making-tattoo-studio_23-2147834008.jpg"},
         {
-          tag: "Design",
-          title: "Custom Concepts",
-          description: "We work closely with you to design bespoke pieces that define your identity.",
-          primaryButton: {
-            text: "Start Design",
-            href: "#contact",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-drawings-her-body_1122-1420.jpg",
-        },
+          tag: "Design",          title: "Custom Concepts",          description: "We work closely with you to design bespoke pieces that define your identity.",          primaryButton: {
+            text: "Start Design",            href: "#contact"},
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-drawings-her-body_1122-1420.jpg"},
         {
-          tag: "Realism",
-          title: "Artist-Level Detail",
-          description: "Our experts specialize in realistic, vibrant ink that stands the test of time.",
-          primaryButton: {
-            text: "View All",
-            href: "#",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/serious-woman-covering-half-face-with-hand_1122-1554.jpg",
-        },
+          tag: "Realism",          title: "Artist-Level Detail",          description: "Our experts specialize in realistic, vibrant ink that stands the test of time.",          primaryButton: {
+            text: "View All",            href: "#"},
+          imageSrc: "http://img.b2bpic.net/free-photo/serious-woman-covering-half-face-with-hand_1122-1554.jpg"},
       ]}
       textAnimation="fade"
     />
@@ -102,20 +76,11 @@ export default function HomePage() {
       description="We offer clear, hourly-based pricing for all custom tattoo work."
       plans={[
         {
-          tag: "Standard Session",
-          price: "$150",
-          period: "/hr",
-          features: [
-            "Custom Design Time",
-            "Full Studio Hygiene",
-            "Aftercare Kit Included",
-          ],
+          tag: "Standard Session",          price: "$150",          period: "/hr",          features: [
+            "Custom Design Time",            "Full Studio Hygiene",            "Aftercare Kit Included"],
           primaryButton: {
-            text: "Book Session",
-            href: "#contact",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-tattoed-student-girl-dressed-white-t-shirt-hat-holds-tablet-takeaway-coffee-while-leaning-table-room-with-loft-interior_613910-18314.jpg",
-        },
+            text: "Book Session",            href: "#contact"},
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-tattoed-student-girl-dressed-white-t-shirt-hat-holds-tablet-takeaway-coffee-while-leaning-table-room-with-loft-interior_613910-18314.jpg"},
       ]}
       textAnimation="slide-up"
     />
@@ -130,17 +95,11 @@ export default function HomePage() {
       description="Evidence of our commitment to excellence."
       metrics={[
         {
-          value: "500+",
-          description: "Successful Custom Pieces",
-        },
+          value: "500+",          description: "Successful Custom Pieces"},
         {
-          value: "99%",
-          description: "Client Satisfaction Rate",
-        },
+          value: "99%",          description: "Client Satisfaction Rate"},
         {
-          value: "15",
-          description: "Years of Artistic Experience",
-        },
+          value: "15",          description: "Years of Artistic Experience"},
       ]}
       textAnimation="fade-blur"
     />
@@ -155,17 +114,10 @@ export default function HomePage() {
       description="Our studio is home to some of the most talented tattoo artists."
       groups={[
         {
-          title: "Studio Experts",
-          members: [
+          title: "Studio Experts",          members: [
             {
-              name: "Alex Rivers",
-              role: "Head Artist",
-              detail: "10 years of realism excellence.",
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-tattooed-handsome-middle-aged-man-with-beard-hairstyle-dressed-blue-shirt-tie-pose-studio-with-crossed-arms-isolated-textured-dark-background-studio_613910-5009.jpg",
-            },
+              name: "Alex Rivers",              role: "Head Artist",              detail: "10 years of realism excellence.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-tattooed-handsome-middle-aged-man-with-beard-hairstyle-dressed-blue-shirt-tie-pose-studio-with-crossed-arms-isolated-textured-dark-background-studio_613910-5009.jpg"},
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/tattoo-studio-with-masters-clients_23-2147834102.jpg?_wi=2",
-          imageAlt: "professional tattoo artist portrait",
         },
       ]}
       textAnimation="slide-up"
@@ -181,25 +133,15 @@ export default function HomePage() {
       author="Sarah James, Professional Designer"
       avatars={[
         {
-          name: "Sarah J.",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-with-colorful-tattoos-posing-white-sheet_1321-985.jpg",
-        },
+          name: "Sarah J.",          imageSrc: "http://img.b2bpic.net/free-photo/man-with-colorful-tattoos-posing-white-sheet_1321-985.jpg"},
         {
-          name: "Mike D.",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-rebellious-granny-grandfather_23-2151310193.jpg",
-        },
+          name: "Mike D.",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-rebellious-granny-grandfather_23-2151310193.jpg"},
         {
-          name: "Lena R.",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-couple-wearing-chain-necklace_23-2149490545.jpg",
-        },
+          name: "Lena R.",          imageSrc: "http://img.b2bpic.net/free-photo/young-couple-wearing-chain-necklace_23-2149490545.jpg"},
         {
-          name: "David K.",
-          imageSrc: "http://img.b2bpic.net/free-photo/tattooed-man-drinking-coffee-cafe_1321-899.jpg",
-        },
+          name: "David K.",          imageSrc: "http://img.b2bpic.net/free-photo/tattooed-man-drinking-coffee-cafe_1321-899.jpg"},
         {
-          name: "Emily C.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-with-body-tattoos_23-2150774449.jpg",
-        },
+          name: "Emily C.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-with-body-tattoos_23-2150774449.jpg"},
       ]}
       textAnimation="fade-blur"
     />
@@ -212,13 +154,9 @@ export default function HomePage() {
       tag="Ready to Start?"
       text="Book your design consultation with our head artist today."
       primaryButton={{
-        text: "Book My Appointment",
-        href: "#",
-      }}
+        text: "Book My Appointment",        href: "#"}}
       secondaryButton={{
-        text: "View Availability",
-        href: "#",
-      }}
+        text: "View Availability",        href: "#"}}
       textAnimation="fade"
     />
     </SectionErrorBoundary>
