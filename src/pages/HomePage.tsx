@@ -27,7 +27,7 @@ export default function HomePage() {
       }}
       items={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/tattoo-studio-with-masters-clients_23-2147834102.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tattoo-studio-with-masters-clients_23-2147834102.jpg?_wi=1",
         },
         {
           imageSrc: "http://img.b2bpic.net/free-photo/young-handsome-tattooed-man-having-breakfast-bed-open-air-outdoors-garden_1321-990.jpg",
@@ -164,7 +164,7 @@ export default function HomePage() {
               imageSrc: "http://img.b2bpic.net/free-photo/portrait-tattooed-handsome-middle-aged-man-with-beard-hairstyle-dressed-blue-shirt-tie-pose-studio-with-crossed-arms-isolated-textured-dark-background-studio_613910-5009.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/tattoo-studio-with-masters-clients_23-2147834102.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tattoo-studio-with-masters-clients_23-2147834102.jpg?_wi=2",
           imageAlt: "professional tattoo artist portrait",
         },
       ]}
